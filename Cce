@@ -1,0 +1,10 @@
+cce code // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+// Import OpenZeppelin (assure-toi d'avoir installé @openzeppelin/contracts si tu utilises Hardhat/Foundry)
+// In Remix, active "Enable Solidity compiler imports from npm" or utilise le fichier local.
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+/// @title MyToken - ERC20 basic mintable & burnable token
+/// @author
